@@ -1,2 +1,3 @@
 name: Ford Fishman
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
