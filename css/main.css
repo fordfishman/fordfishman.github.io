@@ -37,7 +37,7 @@ nav li a:hover {
   background-color: #111;
 }
 
-.active {
+nav .active {
   background-color: rgb(56, 78, 179);
 }
 footer ul {
