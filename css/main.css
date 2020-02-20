@@ -10,8 +10,7 @@ body {
     padding-left: 24px;
   }
 }
-
-.nav ul {
+nav ul {
     list-style-type: none;
     list-style: none;
     margin: 0;
@@ -21,11 +20,11 @@ body {
     font-weight: bold;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-.nav li {
+nav li {
   float: left;
 }
 
-.nav li a {
+nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -34,14 +33,22 @@ body {
 }
 
 /* Change the link color to #111 (black) on hover */
-.nav li a:hover {
+nav li a:hover {
   background-color: #111;
 }
 
 .active {
   background-color: rgb(56, 78, 179);
 }
-
+footer ul {
+    list-style-type: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-weight: bold;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
