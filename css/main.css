@@ -11,7 +11,7 @@ body {
   }
 }
 
-ul {
+.nav ul {
     list-style-type: none;
     list-style: none;
     margin: 0;
@@ -21,11 +21,11 @@ ul {
     font-weight: bold;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-li {
+.nav li {
   float: left;
 }
 
-li a {
+.nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -34,7 +34,7 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+.nav li a:hover {
   background-color: #111;
 }
 
