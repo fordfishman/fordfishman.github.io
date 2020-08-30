@@ -105,13 +105,13 @@ ul.posts li {
   position: relative;
 }
 
-.t-icon {
+.icon-github {
   content: url('/pics/twitter.jpg');
 
   /* display: inline-block; */
 }
 
-.g-icon {
+.icon-twitter {
   content: url('/pics/github.jpg');
   /* display: inline-block; */
 }
