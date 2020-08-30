@@ -100,14 +100,14 @@ ul.posts li {
 }
 
 .t-icon {
-  content: url('/pics/twitter.png');
+  content: url('/pics/twitter.jpg');
   height: 20px;
   width: 20px;
   display: block;
 }
 
 .g-icon {
-  content: url('/pics/github.png');
+  content: url('/pics/github.jpg');
   height: 20px;
   width: 20px;
   display: block;
