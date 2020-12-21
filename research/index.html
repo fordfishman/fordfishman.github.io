@@ -4,15 +4,38 @@ title: Research Interests
 ---
 <div class="blurb">
     <h2>Research Interests</h2>
-    <h3>Microbial Community Interactions</h3>
+
+    <button type="button" class="collapsible">Marker Genes in Microbial Evolution and Ecology</button>
+    <div class="content">
     <p>
-        
+        Measuring microbial diversity through genomics is difficult due to the sheer number of 
+        individuals and species in a given environment, as well as genetic heterogeneity. To 
+        study the ecology of microbial communities, it is common practice to use marker genes, 
+        such as sections of the 16S rRNA gene, as a sort of proxy of actual diversity.
     </p>
-    <h3>Marker Genes in Microbial Evolution and Ecology</h3>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+    </script>
+
+    <!-- <h3>Marker Genes in Microbial Evolution and Ecology</h3>
     <p>
         Measuring microbial diversity through genomics is difficult due to the sheer number of 
         individuals and species in a given environment, as well as genetic heterogeneity. To 
         study the ecology of microbial communities, it is common practice to use marker genes, 
         such as sections of the 16S rRNA gene, as a sort of proxy of actual diversity.  
-    </p>
+    </p> -->
 </div>
