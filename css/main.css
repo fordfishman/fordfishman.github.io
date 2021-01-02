@@ -1,14 +1,11 @@
 body {
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
   max-width: 850px;
   padding: 12px;
   padding-bottom: 0;
 }
-@media only screen and (min-width: 481px) {
-  body {
-    padding-top: 24px;
-    padding-right: 24px;
-    padding-left: 12px;
-  }
+.blurb {
+  padding: 12px;
 }
 nav ul {
   list-style-type: none;
@@ -18,7 +15,7 @@ nav ul {
   overflow: hidden;
   background-color: #333;
   font-weight: bold;
-  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  /* font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
 }
 nav li {
   float: left;
@@ -35,6 +32,8 @@ nav li a {
 /* Change the link color to #111 (black) on hover */
 nav li a:hover {
   background-color: #111;
+  color: #dcdcdc;
+  text-decoration: none;
 }
 
 nav .active {
@@ -47,7 +46,7 @@ footer ul {
   padding: 0;
   overflow: hidden;
   font-weight: bold;
-  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  /* font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
 }
 nav ul li, footer ul li {
   display: inline;
@@ -62,27 +61,23 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    /* font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
 }
 h2 {
     font-size: 2em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    /* font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
 }
 h3 {
     font-size: 1.5em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    /* font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
 }
 p {
     font-size: 1.0em;
-    font-family: 'Arial', 'Helvetica', 'sans-serif';
+    /* font-family: 'Arial', 'Helvetica', 'sans-serif'; */
     line-height: 0.9em;
     color: #333;
     text-align: justify;
     text-justify: inter-word;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-right: 150px;
-    margin-left: 50px;
     line-height: 1.2;
 }
 footer {
@@ -93,6 +88,8 @@ footer {
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
+    font-family: 'Arial', 'Helvetica', 'sans-serif';
+
 }
 
 ul.posts li {
@@ -157,3 +154,12 @@ ul.posts li {
   content: "\2212"; /* Unicode character for "minus" sign (-) */
 }
 
+@media only screen and (min-width: 765px) {
+  body {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  }
+
+  p {
+    margin-right: 150px;
+  }
+}
