@@ -125,7 +125,7 @@ ul.posts li {
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 15pt;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -144,8 +144,8 @@ ul.posts li {
 
 .collapsible:after {
   content: '\002B';
-  font-size: 13px;
-  color: white;
+  font-size: 15pt;
+  color: black;
   float: right;
   margin-left: 5px;
 }
