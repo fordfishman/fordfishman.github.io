@@ -1,8 +1,6 @@
 body {
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
-  max-width: 850px;
-  padding: 12px;
-  padding-bottom: 0;
+  max-width: 1000px;
 }
 .blurb {
   padding: 12px;
