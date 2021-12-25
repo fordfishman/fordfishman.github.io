@@ -4,7 +4,7 @@ title: The Starless Sea Review
 date: 2021-12-25
 ---
 
-## Worldbuilding and *The Starless Sea*
+### Worldbuilding and *The Starless Sea*
 
 My standards for fantasy as a genre are quite high. With *The Lord of the Rings*, *A Song of Ice and Fire*, *The Name of the Wind*, and the massive catalog of Brandon Sanderson novels, I have acquired a taste for the incredibly deep and meaningful worlds the authors of these stories spent years constructing. This extensive process leads to novels simply being cutouts of a vast canvas; every character is a piece of a larger puzzle, with all of their actions making sense in the larger scheme of things.
 
