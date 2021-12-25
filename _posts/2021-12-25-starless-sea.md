@@ -12,7 +12,7 @@ It is unclear if there is this sort of detail behind the scenes of *The Starless
 
 <div class="row container">
 		<div class="col-12">
-			<img src="https://pbs.twimg.com/media/EInVXZcW4AEW65h?format=jpg&amp;name=medium" class="img-fluid rounded align-middle mx-auto d-block" style="max-width:70%;" alt="starless sea with owl">
+			<img src="https://pbs.twimg.com/media/EInVXZcW4AEW65h?format=jpg&amp;name=medium" class="img-fluid rounded align-middle mx-auto d-block" style="max-width:65%;" alt="starless sea with owl">
 		</div>
         <figcaption class="figure-caption text-center"><i>The Starless Sea</i>, complete with nebulous owls</figcaption>
 
@@ -24,10 +24,21 @@ Now, it’s unfair to directly compare *The Starless Sea* to my favorite epic fa
 
 *The Starless Sea* begins leaning into this mystery by whispering of a hidden world: a massive subterranean library built around the titular Starless Sea, filled with mystique, ritual, and books filled with stories and fables housed nowhere else in the world. To Zachary Ezra Rawlins (a name that must be stated in its entirety every time for some nebulous reason), finding any information about this world becomes the only thing he can think about. He first discovers it in a book telling stories of the Starless Sea and the library. Here, one of the stories features a moment from his own life that he never has told anyone else about, sparking his obsession and journey. This first third of the novel is where it thrives. The combination of Zachary’s quest to uncover more about the Starless Sea and the actual tales from his book creates an atmosphere of mystery and intrigue that keeps you reading.
 
+<div class="row container">
+		<div class="col-12">
+			<img src="https://pbs.twimg.com/media/EIdP4vCXUAALR9g?format=jpg&name=medium" class="img-fluid rounded align-middle mx-auto d-block" style="max-width:65%;" alt="starless sea with owl">
+		</div>
+        <figcaption class="figure-caption text-center">Great imagery apropos of nothing</figcaption>
+
+</div>
+
+<br>
+
+
 When Zachary finally reaches the Starless Sea, the mystery of the fantasy world begins to dissipate.  It doesn’t happen all at once. When we first arrive, it’s clear there’s a lot going on that we don’t understand. As Zachary interacts with Dorian, the Keeper, Mirabel, and the books kept in the library, we continue to hear about imagery and stories from earlier in the book about lovers lost in time, owls, and bees, among other arcane tidbits. The details continue to get more and more specific, and while there are some overarching themes and connections, it’s completely unclear where the story is heading or what the underlying truth of the world is.
 
 In the end, none of the curiosity I built up over the course of the novel was satisfied. From what I’ve read of other readers, there are no satisfying answers to what really is happening in *The Starless Sea*. I have some understanding that the plot consists of a convoluted tale of lovers trying to beat fate, some latent story-consuming entities wanting an ending, and two men (with a lot of sexual tension between them) trapped in the heart of it all as pawns of fate. Despite the author divulging a mind-numbingly confusing amount of detail to the reader at the climax of the book, the pieces don’t come together in a satisfying way. I finished knowing a whisper of what happened but having absolutely no understanding of what the broader meaning behind it was, and it doesn’t feel like it was my fault. It’s unclear what the true reasons for anything happening in the book are. The main characters, story-keeping bees, (hostile?) owls, the (literal?) moon, and Fate herself all cause the events of the story to happen, except maybe they just are all pieces of a larger repeating story, or maybe they don’t matter at all. By the time I had read the last words, I was so frustrated with this sort of storying telling that I lost interest in putting it all together. 
 
-In the end, *The Starless Sea* is a book that has stuck in my mind because of how incredibly infuriating it is. The characters are well-written, and the interactions between them are very natural and engaging. The fables told from the books of the library are beautifully written with an elegance and charm that make how the novel plays out all the more irritating. *The Starless Sea* has all the meat of a great fantasy story and none of the connective tissue. If the novel is a cutout of a larger canvas, it is a canvas not worth thinking about altogether.
+*The Starless Sea* is a book that has stuck in my mind because of how incredibly infuriating it is. The characters are well-written, and the interactions between them are very natural and engaging. The fables told from the books of the library are beautifully written with an elegance and charm that make how the novel plays out all the more irritating. *The Starless Sea* has all the meat of a great fantasy story and none of the connective tissue. If the novel is a cutout of a larger canvas, it is a canvas not worth thinking about altogether.
 
 Rating: 2 Stars
