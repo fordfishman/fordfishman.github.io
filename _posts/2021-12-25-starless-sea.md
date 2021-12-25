@@ -12,9 +12,13 @@ It is unclear if there is this sort of detail behind the scenes of *The Starless
 
 <div class="row container">
 		<div class="col-12">
-			<img src="https://pbs.twimg.com/media/EInVXZcW4AEW65h?format=jpg&amp;name=medium" class="img-fluid rounded align-middle mx-auto d-block" style="max-width:70%;" alt="mainpic">
+			<img src="https://pbs.twimg.com/media/EInVXZcW4AEW65h?format=jpg&amp;name=medium" class="img-fluid rounded align-middle mx-auto d-block" style="max-width:70%;" alt="starless sea with owl">
 		</div>
+        <figcaption class="figure-caption text-center"><i>The Starless Sea</i>, complete with nebulous owls</figcaption>
+
 </div>
+
+<br>
 
 Now, it’s unfair to directly compare *The Starless Sea* to my favorite epic fantasy series, and I don’t expect all fantasy to do have incredibly deep and interconnected worldbuilding. *Harry Potter* clearly does not do this, but even still holds up today as a very entertaining and well-written series. Like *Harry Potter*, *The Starless Sea* is designed as a “hidden world” story, where our own world contains, or perhaps is a small part of, the fantasy world that ordinary people are unaware of. This setup has many benefits, including enhancing relatability to the reader and providing a grounded framework to attach to the fantastical elements. However, by putting your fantasy world within the real world, you are also constraining your world with your source material. Creating a convincing setup can prove challenging and requires careful consideration. One potential solution is to lean into the mystery of the world, providing minimal details, and letting the reader fill in the blanks with their imagination. This approach requires care as the author slowly divulges aspects of the world, keeping the reader hooked and looking for more. 
 
