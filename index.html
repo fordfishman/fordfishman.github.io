@@ -3,30 +3,44 @@ layout: default
 title: Ford Fishman
 ---
 <div class="blurb">
-	<h1>Welcome</h1>
-	<p>
-		Hi, I'm Ford Fishman. Currently, I am a graduate student at Indiana University in the 
-		<a href="https://microbes.sitehost.iu.edu/"> Lennon Lab</a>. I study the ecology and evolution of bacteria 
-		through a computational lens. My work uses simulation techniques, such as agent-based models, to how the interactions 
-		among microbes change and evolve over time. I've also developed methods to study how the evolutionary 
-		rates of bacteria and archaea might constrain global microbial diversity. 
-		
-	</p>
+	<div class="row container">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
+			<h1>Welcome</h1>
+			<p>
+				Hi, I'm Ford Fishman. Currently, I am a graduate student at Indiana University in the 
+				<a href="https://microbes.sitehost.iu.edu/"> Lennon Lab</a>. I study the ecology and evolution of bacteria 
+				through a computational lens. My work uses simulation techniques, such as agent-based models, to how the interactions 
+				among microbes change and evolve over time. I've also developed methods to study how the evolutionary 
+				rates of bacteria and archaea might constrain global microbial diversity. 
+				
+			</p>
 
-	<p>
-		I am presently looking to move into a data science career. I love solving computational problems, and 
-		my work during my time in graduate school has taught me to be a better problem solver. I look forward 
-		to delving into data and using that information to make statistical inferences and predict future outcomes 
-		using machine learning algorithms. 
-	</p>
+			<p>
+				I am presently looking to move into a data science career. I love solving computational problems, and 
+				my work during my time in graduate school has taught me to be a better problem solver. I look forward 
+				to delving into data and using that information to make statistical inferences and predict future outcomes 
+				using machine learning algorithms. 
+			</p>
 
-	<p>
-		I'm also interested in basketball analytics, particularly focused on the NBA. 
-		I'm interested in how to best project the development of NBA prospects that are in league or have yet to be drafted. 
-		Currently, I am interested in using machine learning approaches to project which prospects have the highest chances of becoming
-		elite three point shooters. I am also working to create metrics to better quantify the collective 3pt shooting different lineups possess 
-		and seeing how predictive these metrics are of team success in the regular season and post-season. Stay tuned for blog posts!
-	</p>
+			<p>
+				I'm also interested in basketball analytics, particularly focused on the NBA. 
+				I'm interested in how to best project the development of NBA prospects that are in league or have yet to be drafted. 
+				Currently, I am interested in using machine learning approaches to project which prospects have the highest chances of becoming
+				elite three point shooters. I am also working to create metrics to better quantify the collective 3pt shooting different lineups possess 
+				and seeing how predictive these metrics are of team success in the regular season and post-season. Stay tuned for blog posts!
+			</p>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+			<ul class="posts">
+			
+				{% for post in site.posts %}
+				<li><span>{{ post.date | date_to_string }}</span>: <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title
+						}}</a></li>
+				{% endfor %}
+			</ul>
+
+		</div>
+	</div>
 
 	<div class="row container">
 		<div class="col-12">
