@@ -2,82 +2,86 @@
 layout: default
 title: Projects
 ---
-<div class="blurb">
-    <h1>Projects</h1>
 
-    <button type="button" class="collapsible">Phage-Host Coevolution</button>
-    <div class="content">
-        <br>
-        <div class="row container">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <img alt="phage_ecoli" src="https://media.newyorker.com/photos/590966916552fa0be682efe5/master/pass/Twilley-phages.jpg" class="img-fluid rounded align-middle mx-auto d-block" style="max-width: 50%;">
-            </div>
-            <figcaption class="figure-caption text-center">Bacteriophages infecting <i>E. coli</i>. Credits Eye of Science.</figcaption>
-            
-        </div>
-        <br>
+<div class="col-sm-12 col-md-10 col-lg-8 col-xl-6 align-middle mx-auto d-block">
+    <div class="blurb">
+        <h1>Projects</h1>
+
+        <button type="button" class="collapsible">Phage-Host Coevolution</button>
+        <div class="content">
+            <br>
+            <div class="row container">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <img alt="phage_ecoli" src="https://media.newyorker.com/photos/590966916552fa0be682efe5/master/pass/Twilley-phages.jpg" class="img-fluid rounded align-middle mx-auto d-block" style="max-width: 50%;">
+                </div>
+                <figcaption class="figure-caption text-center">Bacteriophages infecting <i>E. coli</i>. Credits Eye of Science.</figcaption>
                 
-        <p>
-            Bacterial hosts engage in antagonistic interactions with the lytic phages that decrease the survival of these hosts.
-            To limit these negative interactions, bacteria must evolve ways to defend themselves and resist phage infection. 
-            This resistance can manifest itself in several forms: modifying the receptors phages need to attach, destroying invasive
-            DNA or RNA once inside the host (restriction modification, CRISPR-Cas), or even early cell death to prevent larger outbreaks (abortive infection).
-        </p>
-        <p>
-            These mechanisms are only a small portion of the vast array of ways bacteria can defend themselves against phage. Why do so many mechanisms exist? 
-            One potential explanation is the other side of this picture: phage evolution. Phage mutations that can overcome the defense mechanisms of 
-            their bacterial hosts confer advantages to these new mutants. These new mutations can lead to new responses in the hosts to combat these new and 
-            improved phage, thus starting a cycle of coevolution. 
-        </p>
-        <p>
-            This coevolution is the focus of my eco-evolutionary simulation model currently called <a href="https://github.com/fordfishman/CommunityImmunity">CommunityImmunity</a>. 
-            In this model, host and phage strains are allowed to mutate and create new strains that may be phage-resistant or may have a larger host range. The demographic
-            information of all strains is tracked and partially determines the frequency of mutation. I am currently using this model to explore the impact of increasing
-            host and phage mutation rate on the outcome of each simulation and the mode of coevolution. 
-        </p>
-    </div>
+            </div>
+            <br>
+            <div class="col-sm-12 col-md-10 col-lg-8 col-xl-6 align-middle mx-auto d-block">
+                <p>
+                    Bacterial hosts engage in antagonistic interactions with the lytic phages that decrease the survival of these hosts.
+                    To limit these negative interactions, bacteria must evolve ways to defend themselves and resist phage infection. 
+                    This resistance can manifest itself in several forms: modifying the receptors phages need to attach, destroying invasive
+                    DNA or RNA once inside the host (restriction modification, CRISPR-Cas), or even early cell death to prevent larger outbreaks (abortive infection).
+                </p>
+                <p>
+                    These mechanisms are only a small portion of the vast array of ways bacteria can defend themselves against phage. Why do so many mechanisms exist? 
+                    One potential explanation is the other side of this picture: phage evolution. Phage mutations that can overcome the defense mechanisms of 
+                    their bacterial hosts confer advantages to these new mutants. These new mutations can lead to new responses in the hosts to combat these new and 
+                    improved phage, thus starting a cycle of coevolution. 
+                </p>
+                <p>
+                    This coevolution is the focus of my eco-evolutionary simulation model currently called <a href="https://github.com/fordfishman/CommunityImmunity">CommunityImmunity</a>. 
+                    In this model, host and phage strains are allowed to mutate and create new strains that may be phage-resistant or may have a larger host range. The demographic
+                    information of all strains is tracked and partially determines the frequency of mutation. I am currently using this model to explore the impact of increasing
+                    host and phage mutation rate on the outcome of each simulation and the mode of coevolution. 
+                </p>
+            </div>
+        </div>
 
-    <button type="button" class="collapsible">Constraints on Microbial Diversity</button>
-    <div class="content">
+        <button type="button" class="collapsible">Constraints on Microbial Diversity</button>
+        <div class="content">
+            <p>
+                Measuring microbial diversity through genomics is difficult due to the sheer number of 
+                individuals and species in a given environment, as well as genetic heterogeneity. To 
+                study the ecology of microbial communities, it is common practice to use marker genes, 
+                such as sections of the 16S rRNA gene, as a sort of proxy of actual diversity. I am broadly interested in the 
+                evolution of 16S and using it to measure global microbial diversity. I am also interested in how
+                diversity at this marker locus corresponds to actual functional and species level diversity in bacteria.
+            </p>
+        </div>
+
+        <button type="button" class="collapsible">Interactions between Mutualism and Dormancy</button>
+        <div class="content">
+            <p>
+                Coming Soon
+            </p>
+        </div>
+
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight){
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                } 
+            });
+            }
+        </script>
+
+        <!-- <h3>Marker Genes in Microbial Evolution and Ecology</h3>
         <p>
             Measuring microbial diversity through genomics is difficult due to the sheer number of 
             individuals and species in a given environment, as well as genetic heterogeneity. To 
             study the ecology of microbial communities, it is common practice to use marker genes, 
-            such as sections of the 16S rRNA gene, as a sort of proxy of actual diversity. I am broadly interested in the 
-            evolution of 16S and using it to measure global microbial diversity. I am also interested in how
-            diversity at this marker locus corresponds to actual functional and species level diversity in bacteria.
-        </p>
+            such as sections of the 16S rRNA gene, as a sort of proxy of actual diversity.  
+        </p> -->
     </div>
-
-    <button type="button" class="collapsible">Interactions between Mutualism and Dormancy</button>
-    <div class="content">
-        <p>
-            Coming Soon
-        </p>
-    </div>
-
-    <script>
-        var coll = document.getElementsByClassName("collapsible");
-        var i;
-
-        for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.maxHeight){
-                content.style.maxHeight = null;
-            } else {
-                content.style.maxHeight = content.scrollHeight + "px";
-            } 
-        });
-        }
-    </script>
-
-    <!-- <h3>Marker Genes in Microbial Evolution and Ecology</h3>
-    <p>
-        Measuring microbial diversity through genomics is difficult due to the sheer number of 
-        individuals and species in a given environment, as well as genetic heterogeneity. To 
-        study the ecology of microbial communities, it is common practice to use marker genes, 
-        such as sections of the 16S rRNA gene, as a sort of proxy of actual diversity.  
-    </p> -->
 </div>
