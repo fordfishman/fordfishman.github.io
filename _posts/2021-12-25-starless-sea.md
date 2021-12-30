@@ -40,4 +40,4 @@ In the end, none of the curiosity I built up over the course of the novel was sa
 
 *The Starless Sea* is a book that has stuck in my mind because of how incredibly infuriating it is. The characters are well-written, and the interactions between them are very natural and engaging. The fables told from the books of the library are beautifully written with an elegance and charm that make how the novel plays out all the more irritating. *The Starless Sea* has all the meat of a great fantasy story and none of the connective tissue. If the novel is a cutout of a larger canvas, it is a canvas not worth thinking about altogether.
 
-Rating: 2 Stars
+Rating: <span class="icon-twitter"></span><span class="icon-twitter"></span>
