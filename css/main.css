@@ -4,6 +4,13 @@ body {
 .blurb {
   padding: 12px;
 }
+.position-absolute {
+    position: absolute!important;
+    margin-top: 2.5vw;
+    margin-left: 1.2vw;
+    color:white;
+    font-size: 6vw;
+}
 nav ul {
   list-style-type: none;
   list-style: none;
