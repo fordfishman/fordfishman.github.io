@@ -4,6 +4,9 @@ body {
 .blurb {
   padding: 12px;
 }
+.ff-word {
+    color: #00bfff;
+}
 .position-absolute {
     position: absolute!important;
     margin-top: 2.5vw;
