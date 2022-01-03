@@ -4,6 +4,7 @@ h1, h2, h3 {
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16pt;
 }
 .blurb {
   padding: 12px;
@@ -27,7 +28,8 @@ nav ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  font-weight: bold;
+  font-size: 0.9em;
+  /* font-weight: bold; */
 }
 nav li {
   float: left;
@@ -51,14 +53,7 @@ nav li a:hover {
 nav .active {
   background-color: rgb(56, 78, 179);
 }
-footer ul {
-  list-style-type: none;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  font-weight: bold;
-}
+
 nav ul li, footer ul li {
   display: inline;
   margin-right: 20px;
@@ -86,9 +81,16 @@ p {
 }
 footer {
     border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    font-size: .7em;
 }
-
+footer ul {
+  list-style-type: none;
+  list-style: none;
+  margin: 0;
+  padding: 12px;
+  overflow: hidden;
+  font-weight: bold;
+}
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
