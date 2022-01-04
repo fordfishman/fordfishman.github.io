@@ -59,23 +59,44 @@ title: Projects
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <img alt="phage_ecoli" src="/pics/cellfield.gif" class="img-fluid rounded align-middle mx-auto d-block" style="max-width: 70%;">
                 </div>
-                <figcaption class="figure-caption text-center">Simulation of the spatial model showing dynamics over 1000 timesteps of A (blue) and B (green) cells, as well as dormant A (red) and B (yellow) cells, on a 2-dimensional plane. Black edges are present to distinguish between cells.</figcaption>
+                <figcaption class="figure-caption">
+                    Simulation of the spatial model showing dynamics over 1000 timesteps of A (blue) and B (green) cooperators, 
+                    as well as dormant A (red) and B (yellow) cells, on a 2D plane. 
+                    Black edges are present to distinguish between cells.
+                </figcaption>
                 
             </div>
             <br>
             <div class="col-md-11 col-lg-10 col-xl-10 col-xxl-9 align-middle mx-auto d-block">
                 <p>
-                    What is the interaction between dormancy and the establishment and maintaining of mutualisms in microbes? 
-                    While crossfeeding might be strongly beneficial to two bacterial species, there are costs associated with 
-                    producing resources that are only indirectly useful. These costs may inhibit the generation of these mutualisms 
-                    or perhaps lead to cheating, where some individuals receive the benefits of the mutualism without producing any costly resources themselves. 
+                    Interactions between species or strains can be considered mutualistic when each species benefits from the presence of the other. 
+                    Mutualisms are very common in nature, such as the relationship between plants and their insect pollinator. 
+                    In bacteria, one form of mutualism occurs when different strains produce resources that can used by other strains. 
+                    However, while receiving benefits from a mutualistic partner can increase growth of an organism, producing the benefits 
+                    for that partner might be costly. These costs may inhibit the evolution of these mutualisms or perhaps lead to cheating, 
+                    where some individuals receive the benefits of the mutualism without producing any costly resources themselves.
                 </p>
                 <p>
-                    Dormancy may help to stabilize these relationships. For instance, while the costs of mutualism may lead to a 
-                    fitness disadvantage when a shared resource is abundant, it may be beneficial when there are low levels of the 
-                    shared resource. A seed bank of dormant cells may allow mutualistic cells to persist when selection favors cheaters. 
-                    Additionally, environmental stochasticity can lead to the fixation of one of the two partners drifting to extinction. 
-                    A seed bank can drastically reduce the probability of stochastic fixation of mutualistic partners. 
+                    Dormancy, where certain individuals become inactive for some time, may help to stabilize these relationships. 
+                    For instance, while the costs of mutualism may lead to a disadvantage when resources are abundant, it may be beneficial 
+                    when resources are scarce. A seed bank of dormant cells may allow mutualistic cells to persist when selection favors 
+                    cheaters until periods where it favors cooperation. Additionally, environmental stochasticity can lead to extinction of 
+                    one of the two partners by chance. A seed bank can drastically reduce this probability by maintaining a seed bank of both partners. 
+                </p>
+                <p> 
+                    To model situations where dormancy can help maintain cooperation, I developed two individual-based models (IBMs): 
+                    one non-spatial, and one spatial. Both implement cells as the primary individuals, or agents, 
+                    and these cells can be of two types existing in a single population. They both share a common resource and 
+                    produce secondary resources that can only be used by the other cell type. Both implement stochastic processes 
+                    and allow individuals to make decisions based upon their current attributes. For more information about implementation, 
+                    please go to the project <a href="https://github.com/fordfishman/mutual-dorm">GitHub repo</a>. 
+                </p>
+                <p> 
+                    These models have shown that when two mutualistic species are capable of dormancy, they can coexist in the long-term 
+                    despite extreme resource limitation. Normally, without dormancy, neither species can survive, and without cooperation, 
+                    one strain will go extinct. With both dormancy and mutualism, both are maintained. In the future, both models will 
+                    require thorough parameter sweeps to identify precise parameters where dormancy increases the probability of coexistence.
+                    
                 </p>
             </div>
             <br>
@@ -83,8 +104,9 @@ title: Projects
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <img alt="phage_ecoli" src="/pics/celldensities.png" class="img-fluid rounded align-middle mx-auto d-block" style="max-width: 70%;">
                 </div>
-                <figcaption class="figure-caption text-center">Simulation of the spatial model showing dynamics over 1000 timesteps of A (blue) and B (green) cells, as well as dormant A (red) and B (yellow) cells, on a 2-dimensional plane. Black edges are present to distinguish between cells.</figcaption>
-                
+                <figcaption class="figure-caption">
+                    Simulation of energy limitation showing sustained coexistence with mutualism (trait = 0.1) and stochastic dormancy enabled.
+                </figcaption>                
             </div>
             <br>
         </div>
