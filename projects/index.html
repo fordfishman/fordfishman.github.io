@@ -20,83 +20,120 @@ title: Projects
             <br>
             <div class="col-md-11 col-lg-10 col-xl-10 col-xxl-9 align-middle mx-auto d-block">
                 <p>
-                    Bacterial hosts engage in antagonistic interactions with the lytic phages that decrease the survival of these hosts.
-                    To limit these negative interactions, bacteria must evolve ways to defend themselves and resist phage infection. 
-                    This resistance can manifest itself in several forms: modifying the receptors phages need to attach, destroying invasive
-                    DNA or RNA once inside the host (restriction modification, CRISPR-Cas), or even early cell death to prevent larger outbreaks (abortive infection).
+                    Bacterial hosts engage in antagonistic interactions with the lytic phages that decrease 
+                    the survival of these hosts. To limit these negative interactions, bacteria must evolve 
+                    ways to defend themselves and resist phage infection. This resistance can manifest itself 
+                    in several forms: modifying the receptors phages need to attach, destroying invasive
+                    DNA or RNA once inside the host (restriction modification, CRISPR-Cas), or even early cell 
+                    death to prevent larger outbreaks (abortive infection).
                 </p>
                 <p>
-                    These mechanisms are only a small portion of the vast array of ways bacteria can defend themselves against phage. Why do so many mechanisms exist? 
-                    One potential explanation is the other side of this picture: phage evolution. Phage mutations that can overcome the defense mechanisms of 
-                    their bacterial hosts confer advantages to these new mutants. These new mutations can lead to new responses in the hosts to combat these new and 
+                    These mechanisms are only a small portion of the vast array of ways bacteria can defend 
+                    themselves against phage. Why do so many mechanisms exist? One potential explanation is 
+                    the other side of this picture: phage evolution. Phage mutations that can overcome the 
+                    defense mechanisms of their bacterial hosts confer advantages to these new mutants. 
+                    These new mutations can lead to new responses in the hosts to combat these new and 
                     improved phage, thus starting a cycle of coevolution. 
                 </p>
                 <p>
-                    This coevolution is the focus of my eco-evolutionary simulation model currently called <a href="https://github.com/fordfishman/CommunityImmunity">CommunityImmunity</a>. 
-                    In this model, host and phage strains are allowed to mutate and create new strains that may be phage-resistant or may have a larger host range. The demographic
-                    information of all strains is tracked and partially determines the frequency of mutation. I am currently using this model to explore the impact of increasing
-                    host and phage mutation rate on the outcome of each simulation and the mode of coevolution. 
+                    This coevolution is the focus of my eco-evolutionary simulation model currently called 
+                    <a href="https://github.com/fordfishman/CommunityImmunity">CommunityImmunity</a>. 
+                    In this model, host and phage strains are allowed to mutate and create new strains that 
+                    may be phage-resistant or may have a larger host range. The demographic information of 
+                    all strains is tracked and partially determines the frequency of mutation. I am currently 
+                    using this model to explore the impact of increasing host and phage mutation rate on the 
+                    outcome of each simulation and the mode of coevolution. 
                 </p>
             </div>
         </div>
 
         <button type="button" class="collapsible">Constraints on Microbial Diversity</button>
         <div class="content">
-            <p>
-                Measuring microbial diversity through genomics is difficult due to the sheer number of 
-                individuals and species in a given environment, as well as genetic heterogeneity. To 
-                study the ecology of microbial communities, it is common practice to use marker genes, 
-                such as sections of the 16S rRNA gene, as a sort of proxy of actual diversity. I am broadly interested in the 
-                evolution of 16S and using it to measure global microbial diversity. I am also interested in how
-                diversity at this marker locus corresponds to actual functional and species level diversity in bacteria.
-            </p>
+            <div class="col-md-11 col-lg-10 col-xl-10 col-xxl-9 align-middle mx-auto d-block">
+                <p>
+                    It is difficult enough to count up all of the animal and plant species on the planet. 
+                    However, this task is even more challenging for microbes. Most bacteria that can be 
+                    detected from DNA sequencing approaches cannot even be grown in the lab, and the vast 
+                    majority of the globe has not been properly sequenced for its microbial content. While 
+                    several attempts have been made to estimate the extent of present-day microbial diversity,
+                    the estimations range from 10<sup>6</sup> to 10<sup>12</sup>, and there is no way to 
+                    directly test these estimates.
+                </p>
+                <p>
+                    One indirect way is to check the feasibility of each estimation. In order for there to 
+                    be a trillion microbial species, there must have been enough time passed to generate this 
+                    number of species. This is controlled by the speciation rate, the number of new species 
+                    formed per million years, and the extinction rate, the number of species that go extinct 
+                    per million years. The net result of speciation and extinction is known as the diversification 
+                    rate. To reach a trillion species after 4 billion years, the diversification rate must be high enough. 
+                    The converse is also true: if the diversification rate is too high, a million species might 
+                    be too low of an estimate. 
+                </p>
+                <p>
+                    With this logic, I used estimates of diversification rates of bacteria to fit stochastic birth-death models. 
+                    As there is no direct fossil record of bacteria, these estimates were taken from the 
+                    symbiotic bacteria of insects that had fossil records themselves. I also used models that included 
+                    global mass extinction events. Our results found that while the outcome of millions of species 
+                    is marginally more likely than billions or trillions, many combinations of parameters can lead 
+                    to even higher than trillions of species, even when accounting for mass extinction events. 
+                    This study is currently being written up into a manuscript for submission for publication. 
+                </p>
+
+            </div>
         </div>
 
         <button type="button" class="collapsible">Mutualism and Dormancy</button>
         <div class="content">
             <br>
             <div class="row container">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="col-12">
                     <img alt="phage_ecoli" src="/pics/cellfield.gif" class="img-fluid rounded align-middle mx-auto d-block" style="max-width: 70%;">
                 </div>
-                <figcaption class="figure-caption">
-                    Simulation of the spatial model showing dynamics over 1000 timesteps of A (blue) and B (green) cooperators, 
-                    as well as dormant A (red) and B (yellow) cells, on a 2D plane. 
-                    Black edges are present to distinguish between cells.
-                </figcaption>
+                <div class="col-md-11 col-lg-10 col-xl-10 col-xxl-9 align-middle mx-auto d-block">
+                    <figcaption class="figure-caption">
+                        Simulation of spatial model showing dynamics over 1000 timesteps of A (blue) and B (green) cooperators, 
+                        as well as dormant A (red) and B (yellow) cells, on a 2D plane. 
+                        Black edges are present to distinguish between cells.
+                    </figcaption>
+                </div>
                 
             </div>
             <br>
             <div class="col-md-11 col-lg-10 col-xl-10 col-xxl-9 align-middle mx-auto d-block">
                 <p>
-                    Interactions between species or strains can be considered mutualistic when each species benefits from the presence of the other. 
-                    Mutualisms are very common in nature, such as the relationship between plants and their insect pollinator. 
-                    In bacteria, one form of mutualism occurs when different strains produce resources that can used by other strains. 
-                    However, while receiving benefits from a mutualistic partner can increase growth of an organism, producing the benefits 
-                    for that partner might be costly. These costs may inhibit the evolution of these mutualisms or perhaps lead to cheating, 
-                    where some individuals receive the benefits of the mutualism without producing any costly resources themselves.
+                    Interactions between species or strains can be considered mutualistic when each species 
+                    benefits from the presence of the other. Mutualisms are very common in nature, such as 
+                    the relationship between plants and their insect pollinator. In bacteria, one form of 
+                    mutualism occurs when different strains produce resources that can used by other strains. 
+                    However, while receiving benefits from a mutualistic partner can increase growth of an 
+                    organism, producing the benefits for that partner might be costly. These costs may inhibit 
+                    the evolution of these mutualisms or perhaps lead to cheating, where some individuals receive 
+                    the benefits of the mutualism without producing any costly resources themselves.
                 </p>
                 <p>
-                    Dormancy, where certain individuals become inactive for some time, may help to stabilize these relationships. 
-                    For instance, while the costs of mutualism may lead to a disadvantage when resources are abundant, it may be beneficial 
-                    when resources are scarce. A seed bank of dormant cells may allow mutualistic cells to persist when selection favors 
-                    cheaters until periods where it favors cooperation. Additionally, environmental stochasticity can lead to extinction of 
-                    one of the two partners by chance. A seed bank can drastically reduce this probability by maintaining a seed bank of both partners. 
+                    Dormancy, where certain individuals become inactive for some time, may help to stabilize 
+                    these relationships. For instance, while the costs of mutualism may lead to a disadvantage 
+                    when resources are abundant, it may be beneficial when resources are scarce. A seed bank of 
+                    dormant cells may allow mutualistic cells to persist when selection favors cheaters until 
+                    periods where it favors cooperation. Additionally, environmental stochasticity can lead to 
+                    extinction of one of the two partners by chance. A seed bank can drastically reduce this 
+                    probability by maintaining a seed bank of both partners. 
                 </p>
                 <p> 
-                    To model situations where dormancy can help maintain cooperation, I developed two individual-based models (IBMs): 
-                    one non-spatial, and one spatial. Both implement cells as the primary individuals, or agents, 
-                    and these cells can be of two types existing in a single population. They both share a common resource and 
-                    produce secondary resources that can only be used by the other cell type. Both implement stochastic processes 
-                    and allow individuals to make decisions based upon their current attributes. For more information about implementation, 
+                    To model situations where dormancy can help maintain cooperation, I developed two 
+                    individual-based models (IBMs): one non-spatial, and one spatial. Both implement cells as 
+                    the primary individuals, or agents, and these cells can be of two types existing in a single 
+                    population. They both share a common resource and produce secondary resources that can only 
+                    be used by the other cell type. Both implement stochastic processes and allow individuals to 
+                    make decisions based upon their current attributes. For more information about implementation, 
                     please go to the project <a href="https://github.com/fordfishman/mutual-dorm">GitHub repo</a>. 
                 </p>
                 <p> 
-                    These models have shown that when two mutualistic species are capable of dormancy, they can coexist in the long-term 
-                    despite extreme resource limitation. Normally, without dormancy, neither species can survive, and without cooperation, 
-                    one strain will go extinct. With both dormancy and mutualism, both are maintained. In the future, both models will 
-                    require thorough parameter sweeps to identify precise parameters where dormancy increases the probability of coexistence.
-                    
+                    These models have shown that when two mutualistic species are capable of dormancy, they can 
+                    coexist in the long-term despite extreme resource limitation. Normally, without dormancy, neither 
+                    species can survive, and without cooperation, one strain will go extinct. With both dormancy 
+                    and mutualism, both are maintained. In the future, both models will require thorough parameter 
+                    sweeps to identify precise parameters where dormancy increases the probability of coexistence.
                 </p>
             </div>
             <br>
@@ -104,9 +141,11 @@ title: Projects
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <img alt="phage_ecoli" src="/pics/celldensities.png" class="img-fluid rounded align-middle mx-auto d-block" style="max-width: 70%;">
                 </div>
-                <figcaption class="figure-caption">
-                    Simulation of energy limitation showing sustained coexistence with mutualism (trait = 0.1) and stochastic dormancy enabled.
-                </figcaption>                
+                <div class="col-md-11 col-lg-10 col-xl-10 col-xxl-9 align-middle mx-auto d-block">
+                    <figcaption class="figure-caption">
+                        Despite long periods of energy limitation, dormancy helps mutualist survive and coexist in the long-term. 
+                    </figcaption>                
+                </div>
             </div>
             <br>
         </div>
@@ -128,12 +167,5 @@ title: Projects
             }
         </script>
 
-        <!-- <h3>Marker Genes in Microbial Evolution and Ecology</h3>
-        <p>
-            Measuring microbial diversity through genomics is difficult due to the sheer number of 
-            individuals and species in a given environment, as well as genetic heterogeneity. To 
-            study the ecology of microbial communities, it is common practice to use marker genes, 
-            such as sections of the 16S rRNA gene, as a sort of proxy of actual diversity.  
-        </p> -->
     </div>
 </div>
