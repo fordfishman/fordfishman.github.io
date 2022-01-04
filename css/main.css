@@ -45,7 +45,7 @@ nav li a {
 /* Change the link color to #111 (black) on hover */
 nav li a:hover {
   background-color: #111;
-  color: #dcdcdc;
+  /* color: #dcdcdc; */
   text-decoration: none;
 }
 
@@ -58,8 +58,8 @@ nav ul li, footer ul li {
   margin-right: 20px;
 }
 a {
-    text-decoration: none;
-    color: #999;
+  text-decoration: none;
+  color: #999;
 }
 
 a:hover {
