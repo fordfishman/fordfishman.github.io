@@ -125,6 +125,11 @@ ul.posts li {
   /* display: inline-block; */
 }
 
+.icon-linkedin {
+  content: url('/pics/linkedin.png');
+  /* display: inline-block; */
+}
+
 .icon-star {
   content: url('/pics/star-fill.svg');
   /* display: inline-block; */
