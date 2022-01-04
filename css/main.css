@@ -72,7 +72,6 @@ p {
     font-size: 1.0em;
     color: #333;
     text-align: left;
-    /* text-justify: inter-word; */
     line-height: 1.5;
 }
 footer {
@@ -83,10 +82,13 @@ footer ul {
   list-style-type: none;
   list-style: none;
   margin: 0;
-  padding: 12px;
+  /* padding: 12px; */
   overflow: hidden;
-  font-weight: bold;
 }
+footer a{
+  color: gray;
+}
+
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
