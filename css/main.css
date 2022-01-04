@@ -16,6 +16,9 @@ body {
     font-size: 6vw;
     font-weight: 600;
 }
+.position-absolute a {
+  color: white;
+}
 
 nav ul {
   list-style-type: none;
@@ -57,6 +60,10 @@ nav ul li, footer ul li {
 a {
     text-decoration: none;
     color: #999;
+}
+
+a:hover {
+  color: #00bfff;
 }
 
 h1 {
