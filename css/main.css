@@ -62,7 +62,7 @@ a {
   color: #999;
 }
 
-a:hover {
+a:hover footer a btn btn-rss:hover{
   color: #00bfff;
 }
 
@@ -92,7 +92,7 @@ footer ul {
   /* padding: 12px; */
   overflow: hidden;
 }
-footer a{
+footer a, footer a btn btn-rss{
   color: gray;
 }
 
@@ -120,7 +120,7 @@ ul.posts li {
   height: 20px;
   width: 20px;
   position: relative;
-  vertical-align: middle;
+  vertical-align: -5px;
 }
 
 .icon-twitter {
@@ -137,6 +137,10 @@ ul.posts li {
 .icon-linkedin {
   content: url('/pics/linkedin.png');
   /* display: inline-block; */
+}
+
+.icon-rss {
+  content: url('/pics/rss.png')
 }
 
 /* Style the button that is used to open and close the collapsible content */
