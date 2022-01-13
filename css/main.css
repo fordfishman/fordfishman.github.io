@@ -120,7 +120,13 @@ ul.posts li {
   height: 20px;
   width: 20px;
   position: relative;
+  vertical-align: -2px;
+
+}
+
+footer [class^="icon"] {
   vertical-align: -5px;
+
 }
 
 .icon-twitter {
