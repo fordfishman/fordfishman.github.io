@@ -11,7 +11,7 @@ layout: feed
 	<id>http://fordfishman.github.io/blog</id>
 	<author>
 		<name>Ford Fishman</name>
-		<email>ffishman@iu.edu</email>
+		<email>fordfishman@gmail.com</email>
 	</author>
 
 	{% for post in site.posts %}
