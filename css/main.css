@@ -238,3 +238,309 @@ blurb .active:after {
   }
 
 }
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16pt;
+}
+.blurb {
+  padding: 12px;
+}
+.ff-word {
+    color: #00bfff;
+}
+.position-absolute {
+    position: absolute!important;
+    margin-top: 2.5vw;
+    margin-left: 1.2vw;
+    color:white;
+    font-size: 6vw;
+    font-weight: 600;
+}
+.position-absolute a {
+  color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(25,25,25);
+  position: relative;
+}
+
+.topnav .active {
+  background: #333;
+  font-weight: 600;
+}
+
+.topnav #links {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav li a:hover {
+  background-color: #111;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav ul {
+  list-style-type: none;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-size: 0.9em;
+  /* font-weight: bold; */
+}
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+  /* color: #dcdcdc; */
+  text-decoration: none;
+}
+
+nav .active {
+  background-color: rgb(56, 78, 179);
+}
+
+nav ul li, footer ul li {
+  display: inline;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: #999;
+}
+
+a:hover {
+  color: #00bfff;
+}
+
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 1.25em;
+}
+p {
+    font-size: 0.9em;
+    color: #333;
+    text-align: left;
+    line-height: 1.5;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .7em;
+}
+footer ul {
+  list-style-type: none;
+  list-style: none;
+  margin: 0;
+  /* padding: 12px; */
+  overflow: hidden;
+}
+footer a, footer a btn btn-rss{
+  color: gray;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul.small-posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.0em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h4 + ul.small-posts {
+  margin-top: -5px;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+[class^="icons"] {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  vertical-align: -5px;
+}
+
+.icons-mail {
+  content: url('/pics/mail.png');
+  /* display: inline-block; */
+}
+
+
+.icons-twitter {
+  content: url('/pics/twitter.png');
+
+  /* display: inline-block; */
+}
+
+.icons-github {
+  content: url('/pics/github.png');
+  /* display: inline-block; */
+}
+
+.icons-linkedin {
+  content: url('/pics/linkedin.png');
+  /* display: inline-block; */
+}
+
+.icons-rss {
+  content: url('/pics/rss.png')
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20pt;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+blurb .active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+blurb .active, .collapsible:hover, .collapsible:focus {
+  outline: none;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+.collapsible:after {
+  content: '\002B';
+  font-size: 20pt;
+  color: black;
+  float: right;
+  margin-left: 5px;
+}
+
+blurb .active:after {
+  content: "\2212"; /* Unicode character for "minus" sign (-) */
+}
+
+@media only screen and (min-width: 765px) {
+  body {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  h1 {
+      font-size: 2.5em;
+  }
+  h2 {
+      font-size: 2em;
+  }
+  h3 {
+      font-size: 1.5em;
+  }
+  p {
+    font-size: 1.0em;
+  }
+
+
+  .topnav ul {
+    list-style-type: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 0.9em;
+    /* font-weight: bold; */
+  }
+  .topnav li {
+    float: left;
+  }
+
+  .topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  .topnav li a:hover {
+    background-color: #111;
+    color: #00bfff;;
+    text-decoration: none;
+  }
+
+
+  .topnav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  .topnav {
+  overflow: hidden;
+  background-color: rgb(25,25,25);
+  position: relative;
+/*   display: hidden !important; */
+  }
+
+  .topnav .active {
+    background: #333;
+    font-weight: 600;
+    display: none ;
+  }
+  .topnav a.icon {
+    display: none ;
+  }
+
+  .topnav #links {
+    display: block !important;
+  }
+}
