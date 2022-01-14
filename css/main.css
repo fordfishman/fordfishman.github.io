@@ -62,7 +62,7 @@ a {
   color: #999;
 }
 
-a:hover footer a btn btn-rss:hover{
+a:hover {
   color: #00bfff;
 }
 
