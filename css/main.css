@@ -2,6 +2,11 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16pt;
 }
+
+.row.container{
+  margin:0;
+  padding:0;
+}
 .blurb {
   padding: 12px;
 }
@@ -542,5 +547,18 @@ blurb .active:after {
 
   .topnav #links {
     display: block !important;
+  }
+
+  .row.container{
+    margin:auto;
+    padding:auto;
+  }
+
+  .row.container{
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
   }
 }
