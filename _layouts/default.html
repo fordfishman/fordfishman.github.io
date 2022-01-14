@@ -12,6 +12,7 @@
     <!-- link to stylesheets -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
@@ -26,22 +27,30 @@
 </head>
 
 <body>
-    <nav>
+    <!-- <nav> -->
         <div class="container-fluid p-0">
             <div class="col-12  d-flex">
                 <img class="img-fluid" src="/pics/data-banner-no-text.jpeg" alt="Banner" style="max-width: 100%; align-self: flex-start;">
                 <h1 class="position-absolute"><a href="/">Ford <span class="ff-word">F:</span>shman</a></h1>
             </div>
         </div>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about/">About</a></li>
-            <li><a href="/projects/">Projects</a></li>
-            <!-- <li><a href="/resume/">Resume</a></li> -->
-            <li><a href="/blog/">Blog</a></li>
-            <li><a href="/subscribe/">Subscribe</a></li>
-        </ul>
-    </nav>
+        <div class="topnav">
+            <a href="/" class="active" ><span class="ff-word" style="color:#333;">F:</span></a>
+            <div id="links">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about/">About</a></li>
+                    <li><a href="/projects/">Projects</a></li>
+                    <!-- <li><a href="/resume/">Resume</a></li> -->
+                    <li><a href="/blog/">Blog</a></li>
+                    <li><a href="/subscribe/">Subscribe</a></li>
+                </ul>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="navbars()">
+                <i class="fa fa-bars"></i>
+              </a>
+    <!-- </nav> -->
+        </div>
     <div class="container">
         
         {{ content }}
@@ -54,20 +63,20 @@
                     <br>
                     <ul>
                         <li>
-                            <a href="mailto:fordfishman@gmail.com"><span class="icon-mail"></span></a>
+                            <a href="mailto:fordfishman@gmail.com"><span class="icons-mail"></span></a>
                         </li>
                         <li>
                             <!-- <svg class="icon-github"><use xlink:href="#icon-github"></use></svg><a href="https://github.com/fordfishman">github.com/fordfishman</a> -->
-                            <a href="https://github.com/fordfishman"><span class="icon-github"></span></a>
+                            <a href="https://github.com/fordfishman"><span class="icons-github"></span></a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/ford_fishman"><span class="icon-twitter"></span></a>
+                            <a href="https://twitter.com/ford_fishman"><span class="icons-twitter"></span></a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/fordfishman/"><span class="icon-linkedin"></span></a>
+                            <a href="https://www.linkedin.com/in/fordfishman/"><span class="icons-linkedin"></span></a>
                         </li>
                         <li>
-                            <a href="/feed.xml" target="_blank"><span class="icon-rss"></span></a>
+                            <a href="/feed.xml" target="_blank"><span class="icons-rss"></span></a>
                         </li>
 
                     </ul>
@@ -76,6 +85,16 @@
             <br>
         </div>
     </footer>
+    <script>
+        function navbars() {
+          var x = document.getElementById("links");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
 </body>
 
 </html>

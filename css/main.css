@@ -20,6 +20,46 @@ body {
   color: white;
 }
 
+.topnav {
+  overflow: hidden;
+  background-color: rgb(25,25,25);
+  position: relative;
+}
+
+.topnav .active {
+  background: #333;
+  font-weight: 600;
+}
+
+.topnav #links {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav li a:hover {
+  background-color: #111;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav ul {
+  list-style-type: none;
+  list-style: none;
+  padding: 0;
+}
+
 nav ul {
   list-style-type: none;
   list-style: none;
@@ -116,36 +156,36 @@ ul.posts li {
     list-style: none;
 }
 
-[class^="icon"] {
+[class^="icons"] {
   height: 30px;
   width: 30px;
   position: relative;
   vertical-align: -5px;
 }
 
-.icon-mail {
+.icons-mail {
   content: url('/pics/mail.png');
   /* display: inline-block; */
 }
 
 
-.icon-twitter {
+.icons-twitter {
   content: url('/pics/twitter.png');
 
   /* display: inline-block; */
 }
 
-.icon-github {
+.icons-github {
   content: url('/pics/github.png');
   /* display: inline-block; */
 }
 
-.icon-linkedin {
+.icons-linkedin {
   content: url('/pics/linkedin.png');
   /* display: inline-block; */
 }
 
-.icon-rss {
+.icons-rss {
   content: url('/pics/rss.png')
 }
 
@@ -163,11 +203,11 @@ ul.posts li {
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
+blurb .active, .collapsible:hover {
   background-color: #ccc;
 }
 
-.active, .collapsible:hover, .collapsible:focus {
+blurb .active, .collapsible:hover, .collapsible:focus {
   outline: none;
 }
 
@@ -188,7 +228,7 @@ ul.posts li {
   margin-left: 5px;
 }
 
-.active:after {
+blurb .active:after {
   content: "\2212"; /* Unicode character for "minus" sign (-) */
 }
 
