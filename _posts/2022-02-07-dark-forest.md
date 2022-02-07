@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: The Dark Forest Review
-date: 2022-02-06
+date: 2022-02-07
 ---
 
 ### A modern hard sci-fi standout
