@@ -47,11 +47,12 @@ title: Ford Fishman
 			<ul class="small-posts">
 				
 			
-				{% for post in site.posts %}
-					{% if forloop.rindex <= 4 %}
-						<li><span>{{ post.date | date_to_string }}</span>: <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title}}</a></li>
-					{% endif %}
+				{% for post in site.posts limit:4 %}
+
+					<li><span>{{ post.date | date_to_string }}</span>: <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title}}</a></li>
+				
 				{% endfor %}
+				
 			</ul>
 
 		</div>
