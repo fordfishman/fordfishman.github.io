@@ -105,10 +105,14 @@ nav ul li, footer ul li {
 a {
   text-decoration: none;
   color: #999;
+  transition: all .2s ease;
+  -webkit-transition: all .2s ease;
 }
 
 a:hover {
   color: #00bfff;
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
 }
 
 h1 {
